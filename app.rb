@@ -5,12 +5,11 @@ class App < Sinatra::Base
 
   get '/' do
 
-  erb :index
-
+    erb :index
   end
 
-  post '/' do
-
+  post '/new' do
+    erb :
   end
 
 end
