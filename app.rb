@@ -3,9 +3,9 @@ require 'pry'
 
 class App < Sinatra::Base
 
-  get '/index' do
+  get '/' do
 
-  erb :create_puppy
+  erb :index
   end
 
   post '/'
