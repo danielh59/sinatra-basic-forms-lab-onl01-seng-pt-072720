@@ -3,7 +3,7 @@ require 'pry'
 
 class App < Sinatra::Base
 
-  get '/' do
+  get '/index' do
 
   erb :index
   end
