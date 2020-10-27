@@ -3,8 +3,10 @@ require 'pry'
 
 class App < Sinatra::Base
 
-get '/create_puppy' do
+  get '/create_puppy' do
 
-erb :create_puppy
+  erb :create_puppy
+  end
 
-end
+  post 
+  end 
