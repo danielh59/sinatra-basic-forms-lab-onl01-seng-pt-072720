@@ -3,7 +3,7 @@ require 'pry'
 
 class App < Sinatra::Base
 
-  get '/create_puppy' do
+  get '/' do
 
   erb :create_puppy
   end
